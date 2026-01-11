@@ -21,6 +21,14 @@
 `brain-tumor-detection` is a compact, reproducible repository for detecting and classifying brain tumors from MRI images using transfer learning (MobileNetV2). The repository includes data organization, augmentation, training (frozen base + fine-tuning), checkpointing, evaluation and a minimal Streamlit dashboard.
 
 ---
+## DashBoard 
+![Dashboard Screenshot](https://github.com/ShashwatSharma19/Brain-Tumor-Detection/blob/c193cadfd74c71900bef3d0d927db829959aaade/brain-mri.png)
+![Dashboard EDA SC](https://github.com/ShashwatSharma19/Brain-Tumor-Detection/blob/c193cadfd74c71900bef3d0d927db829959aaade/EDA-brainmri.png)
+![Dashboard EDA 2 SC](https://github.com/ShashwatSharma19/Brain-Tumor-Detection/blob/c193cadfd74c71900bef3d0d927db829959aaade/EDA-brainmri2.png)
+![Dashboard EDA 3 SC](https://github.com/ShashwatSharma19/Brain-Tumor-Detection/blob/c193cadfd74c71900bef3d0d927db829959aaade/EDA-brainmri3.png)
+![Dashboard EDA 4 SC](https://github.com/ShashwatSharma19/Brain-Tumor-Detection/blob/c193cadfd74c71900bef3d0d927db829959aaade/EDA-brainmri4.png)
+
+
 
 ## Results & Findings ✅
 - **Final Test Accuracy:** **96.50%** (evaluated on held-out `test/` split using the saved best model `best_brain_tumor_model.keras`).
@@ -32,6 +40,9 @@
 ## Data
 - Data directory: `brain_tumor_organized/` with `train/`, `val/`, `test/` splits organized by class.
 - Use `eda_plots/class_counts.csv` to inspect class distributions.
+- ![Dashboard samples](https://github.com/ShashwatSharma19/Brain-Tumor-Detection/blob/c193cadfd74c71900bef3d0d927db829959aaade/brain-mri%20samples.png)
+- ![Dashboard inference](https://github.com/ShashwatSharma19/Brain-Tumor-Detection/blob/c193cadfd74c71900bef3d0d927db829959aaade/brain-mri%20inference.png)
+- ![DashBoard about](https://github.com/ShashwatSharma19/Brain-Tumor-Detection/blob/c193cadfd74c71900bef3d0d927db829959aaade/brain-mri%20about.png)
 
 ---
 
