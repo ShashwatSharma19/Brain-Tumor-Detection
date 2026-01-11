@@ -85,8 +85,6 @@
 
 ---
 
-## License & Contact
-Add your license and preferred contact details (or link to your GitHub profile) here.
 
 ---
 
