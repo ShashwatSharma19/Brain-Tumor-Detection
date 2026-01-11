@@ -83,9 +83,3 @@
 - `training_history.png`, `training_history.json`, `model_metrics.json` — training artifacts
 - `app.py` — dashboard that reads `training_history.json`
 
----
-
-
----
-
-If you want, I can also add a `HOWTO_EVALUATE.md` with a short script to reproduce the `classification_report` and save numeric results. Tell me if you want that and I will add it.
